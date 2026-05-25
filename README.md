@@ -37,7 +37,7 @@ This project will test your skills in data cleaning, transformation, and queryin
 
 **Part 2: SQL Analysis Questions**
 
-After cleaning in Excel, import the data into **DataLab **and write SQL queries to answer the following:
+After cleaning in Excel, import the data into **PostgreSQL** and write SQL queries to answer the following:
 
 1. Product Performance:
    - Which 5 products have the highest number of reviews (rating_count)?
