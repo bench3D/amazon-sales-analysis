@@ -1,3 +1,11 @@
+-- ============================================================
+-- FILE:     sales-analysis.sql
+-- PROJECT:  Amazon Sales Analysis
+-- AUTHOR:   Benedict Chima Ogbulachi
+-- DATE:     2026-05-25
+-- PURPOSE:  Answers to the Analytical Questions on SQL.
+-- ============================================================
+
 -- confirming the first 10 entries in the public.amazon_cleaned table
 SELECT *
 FROM public.amazon_cleaned
