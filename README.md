@@ -334,11 +334,11 @@ The data cleaning was conducted in **Power Query, Microsoft Excel and Jupyter No
 
 Special characters proved difficult to be eliminated using Excel; therefore, Python was used to ensure proper cleaning of the data, in order to enable proper and successful importation into pgAdmin4 for further analysis.
 
-![python-cleaning](C:\Users\hp\amazon-sales-analysis\imgs\python-cleaning.png)
+![python_cleaning](imgs/python-cleaning.png)
 
 After cleaning, the output data `amazon-READY.csv` was imported successfully into  pgAdmin4under the `demo` database as a table:
 
-![successful-import](imgs\successful-import.png)
+![successful_import](imgs/successful-import.png)
 
 ### Formulated Hypothesis:
 * I expect the 49 products that have no discount to be among the most sold and profitable products, because they have an average rating of 4.12/5.0. (High Confidence)
