@@ -83,38 +83,38 @@ This analysis focused on generating actionable insights for e-commerce sellers u
 **Part 2: SQL Analysis Questions**
 After concluding the above challenges analysis in Excel, import the data and write SQL queries to answer the following:
 1. Product Performance:
-* Which 5 products have the highest number of reviews (rating_count)?
-* List products with a rating ≥ 4.0 and a discount percentage ≥ 50%.
+   * Which 5 products have the highest number of reviews (rating_count)?
+   * List products with a rating ≥ 4.0 and a discount percentage ≥ 50%.
 
 2. Pricing Analysis:
-* What is the average discount percentage by main category?
-* Which product has the highest absolute savings (actual_price - discounted_price)?
-* What is the relationship between discounts and customer ratings?
-* How are products distributed across pricing ranges?
+   * What is the average discount percentage by main category?
+   * Which product has the highest absolute savings (actual_price - discounted_price)?
+   * What is the relationship between discounts and customer ratings?
+   * How are products distributed across pricing ranges?
 
 3. Review Sentiment & Volume:
-* How many unique users have left reviews?
-* What is the average rating for products with more than 10,000 rating counts vs those with fewer?
+   * How many unique users have left reviews?
+   * What is the average rating for products with more than 10,000 rating counts vs those with fewer?
 
 4. Category Insights:
-* Which main category has the highest average rating?
-* Which product categories are performing best?
-* How many products per main category have a “fast charging” mention in about_product?
-* Where should sellers concentrate their efforts to boost engagement and revenue?
+   * Which main category has the highest average rating?
+   * Which product categories are performing best?
+   * How many products per main category have a “fast charging” mention in about_product?
+   * Where should sellers concentrate their efforts to boost engagement and revenue?
 
 5. User Engagement:
-* Which user has written the most reviews?
-* What is the average review length `(review_content word count) per product category`?
+   * Which user has written the most reviews?
+   * What is the average review length `(review_content word count) per product category`?
 
 **Part 3: Deliverables**
 This project is complete when I can answer all of Part 1 and 2 analytical questions with visual evidence and deliver at least 5 actionable recommendations to the regional sales managers."
-* Cleaned Excel file (shared via link or attachment)
-* A SQL summary with all queries and comments 
-* A dashboard showing the results of questions answered
-* A summary document (PDF or Word) with answers to the SQL questions and insights observed
-* Every chart has a title, axis labels, and a one-sentence insight caption
-* All recommendations are tied to a specific finding, not intuition
-* The business question from the Executive Summary is explicitly answered in the conclusion
+1. Cleaned Excel file (shared via link or attachment)
+2. A SQL summary with all queries and comments 
+3. A dashboard showing the results of questions answered
+4. A summary document (PDF or Word) with answers to the SQL questions and insights observed
+5. Every chart has a title, axis labels, and a one-sentence insight caption
+6. All recommendations are tied to a specific finding, not intuition
+7. The business question from the Executive Summary is explicitly answered in the conclusion
 
 ## **Data Architecture & Tools**
 Dataset Source:
