@@ -333,9 +333,11 @@ The dataset contains 1,465 rows and 16 columns, with each row representing a uni
 The data cleaning was conducted in **Power Query, Microsoft Excel and Jupyter Notebook**, leveraging its ETL data workflow, exploration, and transformation features. Initial statistics pass: Using the `COUNTBLANK()` formula, the column `rating_count` has 2 missing values.
 
 Special characters proved difficult to be eliminated using Excel; therefore, Python was used to ensure proper cleaning of the data, in order to enable proper and successful importation into pgAdmin4 for further analysis.
+
 ![python-cleaning](C:\Users\hp\amazon-sales-analysis\imgs\python-cleaning.png)
 
 After cleaning, the output data `amazon-READY.csv` was imported successfully into  pgAdmin4under the `demo` database as a table:
+
 ![successful-import](imgs\successful-import.png)
 
 ### Formulated Hypothesis:
